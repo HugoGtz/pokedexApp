@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Layout, Menu, Icon } from 'antd';
 
-const {Sider} = Layout;
+const { Sider } = Layout;
 
 class SliderBar extends Component {
     state = {
