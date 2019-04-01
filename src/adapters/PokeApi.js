@@ -16,7 +16,7 @@ let byNameOrId = (name) => {
     });
 }
 
-let All = (limit = 10, offset = 0) => {
+let all = (limit = 10, offset = 0) => {
     return new Promise((resolve, reject) => {
         instance.interceptors.response.use(
             response => {
@@ -32,5 +32,5 @@ let All = (limit = 10, offset = 0) => {
 
 module.exports = {
     byNameOrId: byNameOrId,
-    All: All,
+    all: all,
 };
