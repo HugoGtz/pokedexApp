@@ -15,6 +15,7 @@ Pokemon.byNameOrId(1).then((pokemonData) => {
     console.log(pokemonData);
 });
 
+
 let contentConf = {
     margin: '24px 16px',
     padding: 24,
