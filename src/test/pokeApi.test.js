@@ -1,4 +1,3 @@
-var assert = require('chai').assert
 const Pokemon = require('../adapters/PokeApi');
 
 beforeAll(() => console.log('PokeApi Adapter TEST'));
