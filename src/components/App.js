@@ -7,14 +7,6 @@ import HeadApp from './layouts/HeadApp';
 import { Layout } from 'antd';
 
 const {Content} = Layout;
-const Pokemon = require('../adapters/PokeApi');
-
-
-Pokemon.byNameOrId(1).then((pokemonData) => {
-    console.log('Test Pokemon');
-    console.log(pokemonData);
-});
-
 
 let contentConf = {
     margin: '24px 16px',
